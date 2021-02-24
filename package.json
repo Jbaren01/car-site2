@@ -8,7 +8,8 @@
     "start": "webpack serve",
     "watch": "Webpack --watch",
     "build": "NODE_ENV=production webpack",
-    "build-dev": "webpack"
+    "build-dev": "webpack",
+    "clear": "rm -rf dist"
   },
   "devDependencies": {
     "@babel/core": "^7.13.1",
