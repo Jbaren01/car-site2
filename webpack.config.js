@@ -60,8 +60,8 @@ module.exports = {
     extensions: [".js", ".jsx"],
   },
   devtool: "source-map",
-  devServer: {
-    contentBase: "./dist",
-    hot: true,
-  },
+  // devServer: {
+  //   contentBase: "./dist",
+  //   hot: true,
+  // },
 };
