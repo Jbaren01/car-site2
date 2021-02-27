@@ -1,14 +1,15 @@
-import "../styles/index.scss";
+import NavBar from "./Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <section className="hero"></section>
-      <main>
-        <section>
-          <h1>Oh hai, React</h1>
-        </section>
-      </main>
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" />
+        </Switch>
+      </Router>
     </>
   );
 };
